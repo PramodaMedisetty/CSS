@@ -1,0 +1,27 @@
+.txt{
+    background-color: yellow;
+}
+
+.img{
+    background-image: url(./image/image1.jpg);
+}
+
+.grad{
+    background: linear-gradient(to bottom right, #ee3232, #ffeb99)
+}
+
+.rep{
+    background-image: url(./pattern/pattern1.jpg);
+    background-repeat: repeat;
+}
+
+.pos{
+    background-image: url(./image/image1.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.bg{
+    padding: 10px 15px;
+    background-color:rgb(244, 248, 253);
+}

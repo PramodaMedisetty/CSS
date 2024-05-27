@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.animated-tile {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 0.3s ease-in-out;
+}
+
+.animated-tile:hover {
+    animation: scaleAnimation 6.5s ease-in-out;
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
